@@ -1,0 +1,12 @@
+module.exports = {
+    "type": "aurora-mysql",
+    "host": "flag-dev-instance-1.cuj1k7wzsbjf.ap-northeast-2.rds.amazonaws.com",
+    "port": 3306,
+    "username": "admin",
+    "password": "flag0618!",
+    "database": "flag",
+    "entities": [
+        "dist/**/*.entity{.ts,.js}"
+    ],
+    "synchronize": true
+}
